@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+.cardLink {
+  text-decoration: none;
+}
+
+.cardLink:hover .shop-link {
+  color: #d87d4a;
+}
+
+.cardList {
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border: none;
+  padding-top: 5.5rem;
+  padding-bottom: 1.375rem;
+  width: 24rem !important;
+  border-radius: 0.7rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -38%);
+  width: 8.625rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  color: #191919;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.0806em;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  line-height: 1.66;
+  font-size: 0.8125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  margin: 0rem 0rem 1rem 0.8325rem;
+}

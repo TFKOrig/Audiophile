@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.featuringProduct {
+  padding: 0vh 2vw;
+  margin-top: 15vh;
+}
+
+.fp-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.fp-Desktop {
+  border-radius: 0.5vw;
+}
+
+.fp-Tablet,
+.fp-Mobile {
+  display: none;
+}
+
+.item-2 {
+  align-self: end;
+}
+
+.item-3 {
+  grid-row: 1 / span 2;
+}

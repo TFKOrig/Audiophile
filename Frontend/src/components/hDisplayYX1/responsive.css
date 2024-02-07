@@ -1,0 +1,142 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .yx-1 {
+    width: 80vw;
+    border-radius: 1.7vw;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5vh auto;
+    row-gap: 2vh;
+  }
+
+  .desktopImg {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-right {
+    width: 80vw;
+    border-radius: 1.7vw;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6vh 0vw 6vh 7vw;
+  }
+
+  .yx1-title {
+    font-size: 6.2vw;
+    margin-bottom: 4vh;
+  }
+
+  .yx1-btn-link {
+    margin-top: 0vh;
+    width: 46vw;
+    font-weight: 700;
+    font-size: 3.2vw;
+    border: 1px solid #191919;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .yx-1 {
+    margin: 0vh 2vw 6vh 2vw;
+  }
+
+  .desktopImg {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-right {
+    border-radius: 1.7vw;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6vh 0vw 6vh 3vw;
+    width: 79vw;
+  }
+
+  .yx1-title {
+    font-size: 3.5vw;
+  }
+
+  .yx1-btn-link {
+    margin-top: 2vh;
+    padding: 1.5vh 0vw;
+    width: 26vw;
+    border: 1px solid #191919;
+    font-size: 2vw;
+    font-weight: 700;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .yx-1 {
+    margin: 0vh 2vw 6vh 2vw;
+  }
+
+  .desktopImg {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-right {
+    border-radius: 1.7vw;
+    width: 66vw;
+  }
+
+  .yx1-title {
+    font-size: 3.5vw;
+  }
+
+  .yx1-btn-link {
+    margin-top: 3vh;
+    border: 1px solid #191919;
+    font-size: 2.2vw;
+    font-weight: 700;
+    padding: 1.5vh 0vw;
+    width: 26vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .yx-1 {
+    margin: 0vh 2vw 6vh 2vw;
+  }
+
+  .desktopImg {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-right {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-title {
+    font-size: 2.7vw;
+  }
+
+  .yx1-btn-link {
+    border: 1px solid #191919;
+    font-size: 1.2vw;
+    padding: 1.5vh 0vw;
+    font-weight: 700;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .yx-1 {
+    margin: 2vh 2vw;
+  }
+
+  .desktopImg {
+    border-radius: 1.7vw;
+  }
+
+  .yx1-right {
+    border-radius: 1.7vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

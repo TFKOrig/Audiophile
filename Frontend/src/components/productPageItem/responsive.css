@@ -1,0 +1,238 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+    .p-xx99m2 {
+      padding-top: 4vh;
+      max-width: 90vw;
+    }
+  
+    .btn-goBack {
+      padding: 2vh 8vw !important;
+      margin: 0vh 5vw !important;
+    }
+  
+    .xx99m2-p {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 90vw;
+      row-gap: 4vh;
+    }
+  
+    .p-xx9m2-desktop {
+      display: none;
+    }
+  
+    .p-xx9m2-mobile {
+      display: block;
+      border-radius: 1.5vw;
+    }
+  
+    .p-xx99m2-right {
+      align-items: flex-start;
+    }
+  
+    .p-xx9m2-heading {
+      line-height: 37px;
+      padding-right: 0vw;
+      font-size: 8vw;
+      text-align: start;
+    }
+  
+    .p-xx9m2-content {
+      padding: 2vh 0vw 0vh 0vw;
+      font-size: 4.75vw;
+      text-align: start;
+    }
+  
+    .product-price {
+      font-size: 5.3vw;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .p-xx99m2 {
+      padding: 8vh 0vw 0vh 0vw;
+      max-width: 95vw;
+    }
+  
+    .btn-goBack {
+      padding: 2vh 5vw !important;
+      margin: 0vh 3vw !important;
+    }
+  
+    .xx99m2-p {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 95vw;
+      padding: 0;
+      row-gap: 4vh;
+    }
+  
+    .p-xx9m2-desktop {
+      display: none;
+    }
+  
+    .p-xx9m2-tablet {
+      display: block;
+      border-radius: 1.5vw;
+    }
+  
+    .p-xx99m2-right {
+      align-items: flex-start;
+    }
+  
+    .p-xx9m2-heading {
+      padding: 0vh 16vw 0vh 0vw;
+      line-height: 37px;
+      font-size: 6vw;
+      text-align: start;
+    }
+  
+    .p-xx9m2-content {
+      text-align: start;
+      padding: 3vh 0vw 0vh 0vw;
+      font-size: 2.4vw;
+    }
+  
+    .product-price {
+      font-size: 3.3vw;
+    }
+  
+    .p-xx9m2-btn {
+      margin: 2vh 0vw 0vh 0vw !important;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .p-xx99m2 {
+      padding: 8vh 0vw 0vh 0vw;
+      max-width: 95vw;
+    }
+  
+    .btn-goBack {
+      padding: 2vh 5vw !important;
+      margin: 0vh 3vw !important;
+    }
+  
+    .xx99m2-p {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 95vw;
+      padding: 0;
+      row-gap: 4vh;
+    }
+  
+    .p-xx9m2-desktop {
+      display: none;
+    }
+  
+    .p-xx9m2-tablet {
+      display: block;
+      border-radius: 1.5vw;
+    }
+  
+    .p-xx99m2-right {
+      align-items: flex-start;
+    }
+  
+    .p-xx9m2-heading {
+      padding: 0vh 42vw 0vh 0vw;
+      line-height: 34px;
+      font-size: 4vw;
+      text-align: start;
+    }
+  
+    .p-xx9m2-content {
+      text-align: start;
+      padding: 3vh 14vw 0vh 0vw;
+      font-size: 2vw;
+    }
+  
+    .product-price {
+      font-size: 2.3vw;
+    }
+  
+    .p-xx9m2-btn {
+      margin: 2vh 0vw 0vh 0vw !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .p-xx99m2 {
+      padding: 8vh 0vw 0vh 0vw;
+      max-width: 99vw;
+    }
+  
+    .btn-goBack {
+      padding: 2vh 3vw !important;
+      margin: 0vh 3vw !important;
+    }
+  
+    .xx99m2-p {
+      max-width: 99vw;
+    }
+  
+    .p-xx9m2-desktop {
+      border-radius: 1vw;
+    }
+  
+    .p-xx9m2-heading {
+      font-size: 3vw;
+    }
+  
+    .p-xx9m2-content {
+      font-size: 1.4vw;
+    }
+  
+    .p-xx9m2-btn {
+      margin: 2vh 0vw 0vh 0vw !important;
+    }
+  
+    .product-price {
+      font-size: 1.8vw;
+    }
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .p-xx99m2 {
+      padding: 8vh 0vw 0vh 0vw;
+      max-width: 99vw;
+    }
+  
+    .btn-goBack {
+      padding: 2vh 3vw !important;
+      margin: 0vh 3vw !important;
+    }
+  
+    .xx99m2-p {
+      max-width: 99vw;
+    }
+  
+    .p-xx9m2-heading {
+      font-size: 3vw;
+    }
+  
+    .p-xx9m2-content {
+      font-size: 1.2vw;
+      padding: 2vh 0vw 0vh 0vw;
+    }
+  
+    .product-price {
+      font-size: 1.8vw;
+    }
+  
+    .p-xx9m2-btn {
+      margin: 2vh 0vw 0vh 0vw !important;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+  }
+  

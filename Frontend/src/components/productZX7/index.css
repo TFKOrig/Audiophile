@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.zx7p {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 15vh;
+  column-gap: 10vw;
+  padding: 0 2vw;
+}
+
+.zx7p-left {
+  animation: fade-in-fwd 1.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.zx7p-desktop {
+  width: 35vw;
+  border-radius: 0.6vw;
+}
+
+.zx7p-tablet,
+.zx7p-mobile {
+  display: none;
+}
+
+.zx7p-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.zx7p-heading {
+  color: #191919;
+  line-height: 34px;
+  font-weight: 700;
+  padding-right: 15vw;
+  font-size: 2.2vw;
+}
+
+.zx7p-content {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+  font-weight: 400;
+  padding: 2vh 10vw 0vh 0vw;
+  font-size: 1.1vw;
+}
+
+.zx7p-btn {
+  margin: 3vh 0vw 0vh 0vw !important;
+}
+
+.zx7p-btn:hover {
+  color: white !important;
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

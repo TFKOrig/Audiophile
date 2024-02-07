@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+.subTitle {
+  font-family: "Manrope", sans-serif;
+  background-color: #191919;
+}
+
+.cat-heading {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 3vw;
+  letter-spacing: 0.0894rem;
+  padding: 15vh 0vw;
+  animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}

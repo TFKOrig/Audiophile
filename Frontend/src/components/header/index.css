@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+.main {
+  background-color: #191919;
+}
+
+.header {
+  background-image: url("../../assests/home/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  padding: 10% 0;
+}
+
+.h-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-product {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.625rem;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.disc {
+  width: 24rem;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 400 !important;
+  line-height: 1.7;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.small-screen {
+  display: none;
+}
+
+.btn {
+  color: white;
+  border: 1px solid #d97d4b;
+  background-color: #d97d4b;
+  display: inline !important;
+  border-radius: 0 !important;
+  margin: 1rem 1rem !important;
+  width: 10rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.0625rem !important;
+  padding: 0.7rem 0rem !important;
+  font-size: 0.7rem !important;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.btn:hover {
+  background-color: #faaf84;
+  border: 1px solid #faaf84;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}

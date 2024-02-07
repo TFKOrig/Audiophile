@@ -1,0 +1,89 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .zx-7 {
+    width: 80vw;
+    margin: 8vh auto;
+    border-radius: 1.7vw;
+    background-image: url("../../assests/home/mobile/image-speaker-zx7.jpg");
+  }
+
+  .zx7-heading {
+    font-size: 6.2vw;
+    margin-bottom: 5vh;
+  }
+
+  .zx7-btn-link {
+    border: 1px solid #191919;
+    font-size: 3.2vw;
+    padding: 1.5vh 6.5vw;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .zx-7 {
+    border-radius: 1.7vw;
+    background-image: url("../../assests/home/tablet/image-speaker-zx7.jpg");
+    margin: 8vh 2vw;
+  }
+
+  .zx7-heading {
+    /* font-size: 4.2vw; */
+    font-size: 3.5vw;
+    margin-bottom: 5vh;
+  }
+
+  .zx7-btn-link {
+    border: 1px solid #191919;
+    font-size: 2.2vw;
+    padding: 1.5vh 3.5vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .zx-7 {
+    border-radius: 1.7vw;
+    background-image: url("../../assests/home/tablet/image-speaker-zx7.jpg");
+    margin: 8vh 2vw;
+  }
+
+  .zx7-heading {
+    font-size: 3.5vw;
+    margin-bottom: 5vh;
+  }
+
+  .zx7-btn-link {
+    border: 1px solid #191919;
+    font-size: 2.2vw;
+    padding: 1.5vh 3.5vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .zx-7 {
+    margin: 8vh 2vh;
+    border-radius: 1.7vw;
+  }
+  .zx7-heading {
+    font-size: 2.7vw;
+  }
+  .zx7-btn-link {
+    border: 1px solid #191919;
+    font-size: 1.2vw;
+    padding: 1.5vh 2.5vw;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .zx-7 {
+    margin: 8vh 2vw;
+    border-radius: 1.7vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

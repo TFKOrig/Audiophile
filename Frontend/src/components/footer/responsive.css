@@ -1,0 +1,136 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-img {
+    margin: 0 auto 2vh auto;
+    width: 47vw;
+  }
+
+  .footer-content {
+    font-size: 4.3vw;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 4.3vw;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3vw;
+    margin-top: 4vh;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    padding-top: 8vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-img {
+    margin: 0 auto 2vh auto;
+    width: 30vw;
+  }
+
+  .footer-content {
+    line-height: 25px;
+    font-size: 2.65vw;
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 2.65vw;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3vw;
+    margin-top: 4vh;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    padding-top: 8vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-img {
+    margin: 0 auto 2vh auto;
+    width: 22vw;
+  }
+
+  .footer-content {
+    line-height: 25px;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3vw;
+    margin-top: 4vh;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    padding-top: 8vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-img {
+    width: 15vw;
+  }
+
+  .footer-content {
+    line-height: 25px;
+    font-size: 1.2vw;
+  }
+
+  .copyright {
+    font-size: 1.2vw;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .footer-content {
+    line-height: 25px;
+    font-size: 1vw;
+  }
+
+  .copyright {
+    font-size: 1vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

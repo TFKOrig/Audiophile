@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+.zx-7 {
+  font-family: "Manrope", sans-serif;
+  border-radius: 0.5vw;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../../assests/home/desktop/image-speaker-zx7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 8vh 0vw;
+}
+
+.zx7-content {
+  margin: 19vh 8vw;
+}
+
+.zx7-heading {
+  font-size: 2.2vw;
+  font-weight: 700;
+  color: #191919;
+  line-height: 34px;
+  margin-bottom: 5vh;
+}
+
+.zx7-btn-link {
+  border: 2px solid #191919;
+  padding: 1.5vh 2vw;
+  text-decoration: none;
+  color: #191919;
+  font-weight: bold;
+  font-size: 1vw;
+  line-height: 16px;
+  letter-spacing: 0.0625rem;
+}
+
+.zx7-btn-link:hover {
+  background-color: #191919;
+  color: white;
+}

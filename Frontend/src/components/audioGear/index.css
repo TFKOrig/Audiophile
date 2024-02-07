@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+.information {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  justify-content: space-between;
+}
+
+.audio-gear-heading {
+  color: #191919;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0vh 6vw;
+}
+
+.audio-gear-para {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+  font-size: 1.16vw;
+  margin-top: 4vh;
+  padding-right: 2vw;
+}
+
+.tablet-audio-gear-img {
+  display: none;
+}
+
+.mobile-audio-gear-img {
+  display: none;
+}

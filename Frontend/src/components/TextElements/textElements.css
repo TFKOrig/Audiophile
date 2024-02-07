@@ -1,0 +1,18 @@
+.overline {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.overline--orange {
+  color: #d87d4a;
+  opacity: 1;
+}
+
+.overline--white {
+  color: #fff;
+  opacity: 0.5;
+}

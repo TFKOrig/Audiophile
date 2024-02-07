@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.p-xx99m2 {
+  padding-top: 15vh;
+}
+
+.btn-goBack {
+  padding: 2vh 2vw !important;
+  margin: 0vh 2vw !important;
+}
+
+.btn-goBack:hover {
+  color: white;
+}
+
+.xx99m2-p {
+  display: flex;
+  margin-top: 8vh;
+  column-gap: 10vw;
+  padding: 0 2vw;
+}
+
+.p-xx99m2-left {
+  animation: fade-in-fwd 1.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.p-xx9m2-desktop {
+  width: 35vw;
+  border-radius: 0.6vw;
+}
+
+.p-xx9m2-tablet,
+.p-xx9m2-mobile {
+  display: none;
+}
+
+.p-xx99m2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.p-xx9m2-heading {
+  color: #191919;
+  line-height: 34px;
+  font-weight: 700;
+  padding-right: 14vw;
+  font-size: 2.2vw;
+}
+
+.p-xx9m2-content {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+  font-weight: 400;
+  padding: 2vh 10vw 0vh 0vw;
+  font-size: 1.1vw;
+}
+
+.product-price {
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 1.3vw;
+  color: #191919;
+}
+
+.p-xx9m2-btn {
+  margin: 3vh 0vw 0vh 0vw !important;
+}
+
+.p-xx9m2-btn:hover {
+  color: white !important;
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

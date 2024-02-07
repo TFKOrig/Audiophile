@@ -1,0 +1,122 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .header {
+    background-image: url("../../assests/home/mobile/image-header.jpg");
+    background-size: cover;
+  }
+
+  .h-content {
+    align-items: center;
+    padding: 0 0rem !important;
+  }
+
+  .new-product {
+    font-size: 0.78rem;
+    text-align: center;
+  }
+
+  .header__title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .disc {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+    /* width: 24rem; */
+    max-width: 414px !important;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .header {
+    background-image: url("../../assests/home/tablet/image-header.jpg");
+    background-size: cover;
+  }
+
+  .h-content {
+    align-items: center;
+    padding: 0 0rem !important;
+  }
+
+  .new-product {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .header__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .disc {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+    /* width: 24rem; */
+    max-width: 414px !important;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header {
+    background-image: url("../../assests/home/tablet/image-header.jpg");
+    background-size: cover;
+  }
+
+  .h-content {
+    align-items: center;
+    padding: 0 0rem !important;
+  }
+
+  .new-product {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .header__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .disc {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+    /* width: 24rem; */
+    max-width: 414px !important;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

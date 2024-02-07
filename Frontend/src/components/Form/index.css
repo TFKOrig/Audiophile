@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.form-cont {
+  margin-top: 5vh !important;
+}
+
+/* form container */
+form {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* labels */
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* form headings */
+h2 {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-btnn:hover {
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  /* outline: auto; */
+}

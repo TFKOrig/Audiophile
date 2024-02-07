@@ -1,0 +1,170 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .information {
+    flex-direction: column-reverse;
+    width: 80vw;
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    padding: 0vh 0vw;
+  }
+
+  .desktop-audio-gear-img {
+    display: none;
+  }
+
+  .mobile-audio-gear-img {
+    display: block;
+    border-radius: 1.5vw;
+  }
+
+  .right-content {
+    padding: 4vh 0vw;
+  }
+
+  .audio-gear-heading {
+    font-size: 7vw;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .audio-gear-para {
+    padding-right: 0vw;
+    margin-top: 2vh;
+    line-height: 25px;
+    font-size: 4.29vw;
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .information {
+    flex-direction: column-reverse;
+    padding: 0vh 0vw;
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+    max-width: 92vw;
+  }
+
+  .desktop-audio-gear-img {
+    display: none;
+  }
+
+  .tablet-audio-gear-img {
+    display: block;
+    border-radius: 1.5vw;
+  }
+
+  .right-content {
+    padding: 4vh 0vw;
+  }
+
+  .audio-gear-heading {
+    font-size: 6.5vw;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  .audio-gear-para {
+    padding-right: 0vw;
+    margin-top: 2vh;
+    line-height: 25px;
+    font-size: 2.65vw;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .information {
+    flex-direction: column-reverse;
+    padding: 0vh 0vw;
+    margin-top: 12vh;
+    margin-bottom: 8vh;
+    max-width: 92vw;
+  }
+
+  .desktop-audio-gear-img {
+    display: none;
+  }
+
+  .tablet-audio-gear-img {
+    display: block;
+    border-radius: 1.5vw;
+  }
+
+  .right-content {
+    padding: 4vh 0vw;
+  }
+
+  .audio-gear-heading {
+    font-size: 5vw;
+    line-height: 53px;
+    text-align: center;
+    padding: 0vh 2vw;
+  }
+
+  .audio-gear-para {
+    padding: 0vh 6vw;
+    margin-top: 2vh;
+    line-height: 25px;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .information {
+    padding: 0;
+    max-width: 92vw;
+  }
+
+  .desktop-audio-gear-img {
+    width: 47vw;
+    border-radius: 1.5vw !important;
+  }
+
+  .right-content {
+    padding: 0vh 2vw;
+  }
+
+  .audio-gear-heading {
+    font-size: 3.5vw;
+  }
+
+  .audio-gear-para {
+    padding-right: 2vw;
+    font-size: 1.34vw;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .information {
+    padding: 0;
+    max-width: 92vw;
+  }
+
+  .desktop-audio-gear-img {
+    width: 47vw;
+    border-radius: 1.5vw !important;
+  }
+
+  .right-content {
+    padding: 0vh 2vw;
+  }
+
+  .audio-gear-heading {
+    font-size: 3vw;
+  }
+
+  .audio-gear-para {
+    padding-right: 2vw;
+    font-size: 1.18vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

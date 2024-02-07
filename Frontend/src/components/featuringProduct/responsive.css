@@ -1,0 +1,125 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .featuringProduct {
+    max-width: 90vw;
+    padding: 0vh 4vw;
+  }
+
+  .fp-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .fp-Desktop {
+    display: none;
+  }
+
+  .fp-Mobile {
+    display: block;
+    border-radius: 1.5vw;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .featuringProduct {
+    max-width: 95vw;
+  }
+
+  .fp-parent {
+  }
+
+  .fp-Desktop {
+    display: none;
+  }
+
+  .fp-Tablet {
+    display: block;
+    border-radius: 1.5vw;
+  }
+
+  .item-2 {
+  }
+
+  .item-3 {
+    height: 72vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .featuringProduct {
+    max-width: 95vw;
+    padding: 0;
+  }
+
+  .fp-parent {
+  }
+
+  .fp-Desktop {
+    display: none;
+  }
+
+  .fp-Tablet {
+    display: block;
+    border-radius: 1.5vw;
+  }
+
+  .item-2 {
+  }
+
+  .item-3 {
+    height: 94vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .featuringProduct {
+    max-width: 99vw;
+    padding: 0 2vw;
+    margin: 15vh 0vw 0vh 0vw;
+  }
+
+  .fp-parent {
+  }
+
+  .fp-Desktop {
+    width: 45vw;
+  }
+
+  .item-2 {
+  }
+
+  .item-3 {
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .featuringProduct {
+    padding: 0vh 3vw;
+  }
+
+  .fp-parent {
+  }
+
+  .fp-Desktop {
+  }
+
+  .fp-Mobile {
+  }
+
+  .item-2 {
+  }
+
+  .item-3 {
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}

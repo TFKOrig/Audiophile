@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-around !important;
+  background-color: #191919;
+  padding: 2rem 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0rem;
+  height: 0.0625rem;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  cursor: pointer;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+
+#container {
+  margin: 0 8em;
+}
+
+.navbar-nav {
+  column-gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: small;
+  letter-spacing: 0.125em;
+  font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #d87d4a !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../assests/shared/tablet/icon-hamburger.svg") !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  position: absolute;
+  left: 5rem;
+}
+
+.cart {
+  border: none;
+  background: none;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+

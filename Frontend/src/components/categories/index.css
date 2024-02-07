@@ -1,0 +1,6 @@
+.category {
+  display: flex;
+  margin: 13rem 0rem 9rem 0rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

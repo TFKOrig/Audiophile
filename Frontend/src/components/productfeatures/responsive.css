@@ -1,0 +1,170 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 576px) {
+  .product-item {
+    flex-direction: column;
+    max-width: 90vw;
+    margin-top: 10vh;
+    justify-content: center;
+    padding: 0vh 4vw;
+    row-gap: 8vh;
+  }
+
+  .p-heading {
+    font-size: 8vw;
+    line-height: 32px;
+  }
+
+  .p-para {
+    padding: 2vh 0vw 0vh 0vw;
+    font-size: 4.75vw;
+  }
+
+  .p-right {
+    width: 80vw;
+  }
+
+  .p-li {
+    font-size: 4.75vw;
+    line-height: 23px;
+  }
+
+  .p-wx {
+    margin-right: 5vw;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .product-item {
+    max-width: 95vw;
+    padding: 0;
+    flex-direction: column;
+    row-gap: 8vh;
+    margin-top: 10vh;
+  }
+
+  .p-heading {
+    line-height: 37px;
+    font-size: 5vw;
+  }
+
+  .p-para {
+    font-size: 2.4vw;
+  }
+
+  .p-right {
+    width: 90vw;
+    display: flex;
+    column-gap: 10vw;
+  }
+
+  .p-ul {
+    margin: 0;
+  }
+
+  .p-li {
+    font-size: 2.4vw;
+  }
+
+  .p-wx {
+    margin-right: 3vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .product-item {
+    max-width: 95vw;
+    padding: 0;
+    flex-direction: column;
+    row-gap: 8vh;
+    margin-top: 10vh;
+  }
+
+  .p-heading {
+    line-height: 34px;
+    font-size: 3.5vw;
+  }
+
+  .p-para {
+    font-size: 2vw;
+  }
+
+  .p-right {
+    width: 90vw;
+    display: flex;
+    column-gap: 20vw;
+  }
+
+  .p-ul {
+    margin: 0;
+  }
+
+  .p-li {
+    font-size: 2vw;
+  }
+
+  .p-wx {
+    margin-right: 2.5vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .product-item {
+    max-width: 99vw;
+    padding: 0 2vw;
+  }
+
+  .p-heading {
+    font-size: 3vw;
+  }
+
+  .p-para {
+    font-size: 1.4vw;
+  }
+
+  .p-right {
+    width: 80vw;
+  }
+
+  .p-li {
+    font-size: 1.4vw;
+  }
+
+  .p-wx {
+    margin-right: 1.5vw;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .product-item {
+    max-width: 99vw;
+    padding: 0 2vw;
+  }
+
+  .p-heading {
+    font-size: 2.5vw;
+  }
+
+  .p-para {
+    font-size: 1.2vw;
+  }
+
+  .p-right {
+    width: 80vw;
+  }
+
+  .p-li {
+    font-size: 1.2vw;
+  }
+
+  .p-wx {
+    margin-right: 1.5vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}
