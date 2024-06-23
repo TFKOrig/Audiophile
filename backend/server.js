@@ -12,8 +12,6 @@ const app = express();
 //     credentials: true,
 //   })
 // );
-app.use(cors());
-
 const PORT = process.env.PORT || 5000;
 
 // MongoDB connection
