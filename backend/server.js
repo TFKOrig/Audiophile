@@ -5,13 +5,14 @@ const cors = require("cors"); // Import the cors middleware
 
 const app = express();
 
-app.use(
-  cors({
-    origin: "https://audiophile-53b5k3bc5-tfkorigs-projects.vercel.app/",
-    methods: ["POST", "GET", "UPDATE", "DELETE"],
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     origin: "https://audiophile-53b5k3bc5-tfkorigs-projects.vercel.app/",
+//     methods: ["POST", "GET", "UPDATE", "DELETE"],
+//     credentials: true,
+//   })
+// );
+app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
