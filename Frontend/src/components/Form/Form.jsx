@@ -30,7 +30,7 @@ const Form = () => {
 
   const addBilling = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
-
+    axios.defaults.withCredentials = true;
     try {
       // console.log(form)
       await axios.post(
