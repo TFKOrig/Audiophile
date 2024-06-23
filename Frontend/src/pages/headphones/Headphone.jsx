@@ -20,9 +20,9 @@ const Headphone = () => {
           <ProductXX99M1 />
           <ProductXX59 />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <Categories />
-        </div>
+        </div> */}
       </Layout>
     </>
   );

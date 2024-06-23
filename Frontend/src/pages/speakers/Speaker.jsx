@@ -11,12 +11,12 @@ const Speaker = () => {
       <Layout>
         <div className="speakers">
           <SubTitle subTitle="SPEAKERS" />
-          <ProductZX9/>
-          <ProductZX7/>
+          <ProductZX9 />
+          <ProductZX7 />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <Categories />
-        </div>
+        </div> */}
       </Layout>
     </>
   );

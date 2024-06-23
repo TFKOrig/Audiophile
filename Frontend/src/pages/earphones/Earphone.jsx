@@ -10,11 +10,11 @@ const Earphone = () => {
       <Layout>
         <div className="earphones">
           <SubTitle subTitle="EARPHONES" />
-          <ProductYX1/>
+          <ProductYX1 />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <Categories />
-        </div>
+        </div> */}
       </Layout>
     </>
   );
