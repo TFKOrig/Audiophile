@@ -33,7 +33,10 @@ const Form = () => {
 
     try {
       // console.log(form)
-      await axios.post("audiophileapi-tfkorigs-projects.vercel.app", form);
+      await axios.post(
+        "https://audiophileapi-tfkorigs-projects.vercel.app/",
+        form
+      );
       setForm({
         name: "",
         phone: "",
