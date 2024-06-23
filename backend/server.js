@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "audiophileapi-tfkorigs-projects.vercel.app",
+    origin: "https://audiophileapi-tfkorigs-projects.vercel.app/",
     methods: ["POST", "GET", "UPDATE", "DELETE"],
     credentials: true,
   })
