@@ -25,6 +25,7 @@ mongoose.connection.on("connected", () => {
 // Body parser middleware
 app.use(bodyParser.json());
 app.use(cors()); // Use the cors middleware
+app.options("*", cors()); // Handle preflight requests for all routes
 
 // API routes
 app.use("/api/billing", require("./routes/billings"));
