@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import axios from 'axios'
-
+import axios from "axios";
 
 const Form = () => {
   const [form, setForm] = useState({
@@ -16,7 +15,7 @@ const Form = () => {
     email: "",
     city: "",
     emoney: "",
-    cashondelivery: ""
+    cashondelivery: "",
   });
 
   const handleChange = (e) => {
@@ -34,7 +33,7 @@ const Form = () => {
 
     try {
       // console.log(form)
-      await axios.post('http://localhost:5000/api/billing', form);
+      await axios.post("audiophileapi-tfkorigs-projects.vercel.app", form);
       setForm({
         name: "",
         phone: "",
@@ -46,13 +45,13 @@ const Form = () => {
         email: "",
         city: "",
         emoney: "",
-        cashondelivery: ""
+        cashondelivery: "",
       });
 
       // Display alert when a new exercise is added
-      window.alert('Order Confirmed!');
+      window.alert("Order Confirmed!");
     } catch (error) {
-      console.error('Try Again Later: ', error);
+      console.error("Try Again Later: ", error);
     }
   };
 
